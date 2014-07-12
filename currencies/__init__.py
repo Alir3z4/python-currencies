@@ -510,6 +510,12 @@ class Currency(object):
         """
         self.set_money_currency(money_currency)
 
+    def set_money_currency(self, money_currency):
+        """
+        :type money_currency: str
+        """
+        self.money_currency = money_currency
+
     def get_money_currency(self):
         """
         :rtype: str
