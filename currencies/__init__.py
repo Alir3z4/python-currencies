@@ -19,12 +19,12 @@ class Currency(object):
             "money_with_currency_format": "${amount} USD"
         },
         "EUR": {
-            "money_format": "&euro;{amount}",
-            "money_with_currency_format": "&euro;{amount} EUR"
+            "money_format": "€{amount}",
+            "money_with_currency_format": "€{amount} EUR"
         },
         "GBP": {
-            "money_format": "&pound;{amount}",
-            "money_with_currency_format": "&pound;{amount} GBP"
+            "money_format": "£{amount}",
+            "money_with_currency_format": "£{amount} GBP"
         },
         "CAD": {
             "money_format": "${amount}",
@@ -75,8 +75,8 @@ class Currency(object):
             "money_with_currency_format": "BS${amount} BSD"
         },
         "BHD": {
-            "money_format": "{amount}0 BD",
-            "money_with_currency_format": "{amount}0 BHD"
+            "money_format": "{amount} BD",
+            "money_with_currency_format": "{amount} BHD"
         },
         "BYR": {
             "money_format": "Br {amount}",
@@ -135,24 +135,24 @@ class Currency(object):
             "money_with_currency_format": "${amount} CLP"
         },
         "CNY": {
-            "money_format": "&#165;{amount}",
-            "money_with_currency_format": "&#165;{amount} CNY"
+            "money_format": "¥{amount}",
+            "money_with_currency_format": "¥{amount} CNY"
         },
         "COP": {
             "money_format": "${amount}",
             "money_with_currency_format": "${amount} COP"
         },
         "CRC": {
-            "money_format": "&#8353; {amount}",
-            "money_with_currency_format": "&#8353; {amount} CRC"
+            "money_format": "₡ {amount}",
+            "money_with_currency_format": "₡ {amount} CRC"
         },
         "HRK": {
             "money_format": "{amount} kn",
             "money_with_currency_format": "{amount} kn HRK"
         },
         "CZK": {
-            "money_format": "{amount} K&#269;",
-            "money_with_currency_format": "{amount} K&#269;"
+            "money_format": "{amount} Kč",
+            "money_with_currency_format": "{amount} Kč"
         },
         "DKK": {
             "money_format": "{amount}",
@@ -187,8 +187,8 @@ class Currency(object):
             "money_with_currency_format": "D {amount} GMD"
         },
         "GHS": {
-            "money_format": "GH&#8373;{amount}",
-            "money_with_currency_format": "GH&#8373;{amount}"
+            "money_format": "GH₵{amount}",
+            "money_with_currency_format": "GH₵{amount}"
         },
         "GTQ": {
             "money_format": "Q{amount}",
@@ -235,16 +235,16 @@ class Currency(object):
             "money_with_currency_format": "${amount} JMD"
         },
         "JPY": {
-            "money_format": "&#165;{amount}",
-            "money_with_currency_format": "&#165;{amount} JPY"
+            "money_format": "¥{amount}",
+            "money_with_currency_format": "¥{amount} JPY"
         },
         "JEP": {
-            "money_format": "&pound;{amount}",
-            "money_with_currency_format": "&pound;{amount} JEP"
+            "money_format": "£{amount}",
+            "money_with_currency_format": "£{amount} JEP"
         },
         "JOD": {
-            "money_format": "{amount}0 JD",
-            "money_with_currency_format": "{amount}0 JOD"
+            "money_format": "{amount} JD",
+            "money_with_currency_format": "{amount} JOD"
         },
         "KZT": {
             "money_format": "{amount} KZT",
@@ -255,8 +255,8 @@ class Currency(object):
             "money_with_currency_format": "KSh{amount}"
         },
         "KWD": {
-            "money_format": "{amount}0 KD",
-            "money_with_currency_format": "{amount}0 KWD"
+            "money_format": "{amount} KD",
+            "money_with_currency_format": "{amount} KWD"
         },
         "KGS": {
             "money_format": "лв{amount}",
@@ -267,8 +267,8 @@ class Currency(object):
             "money_with_currency_format": "Ls {amount} LVL"
         },
         "LBP": {
-            "money_format": "L&pound;{amount}",
-            "money_with_currency_format": "L&pound;{amount} LBP"
+            "money_format": "L£{amount}",
+            "money_with_currency_format": "L£{amount} LBP"
         },
         "LTL": {
             "money_format": "{amount} Lt",
@@ -311,7 +311,7 @@ class Currency(object):
             "money_with_currency_format": "Dh {amount} MAD"
         },
         "MNT": {
-            "money_format": "{amount} &#8366",
+            "money_format": "{amount} ₮",
             "money_with_currency_format": "{amount} MNT"
         },
         "MZN": {
@@ -327,8 +327,8 @@ class Currency(object):
             "money_with_currency_format": "Rs{amount} NPR"
         },
         "ANG": {
-            "money_format": "&fnof;{amount}",
-            "money_with_currency_format": "{amount} NA&fnof;"
+            "money_format": "ƒ{amount}",
+            "money_with_currency_format": "{amount} NAƒ"
         },
         "NZD": {
             "money_format": "${amount}",
@@ -339,8 +339,8 @@ class Currency(object):
             "money_with_currency_format": "C${amount} NIO"
         },
         "NGN": {
-            "money_format": "&#8358;{amount}",
-            "money_with_currency_format": "&#8358;{amount} NGN"
+            "money_format": "₦{amount}",
+            "money_with_currency_format": "₦{amount} NGN"
         },
         "NOK": {
             "money_format": "kr {amount}",
@@ -367,8 +367,8 @@ class Currency(object):
             "money_with_currency_format": "S/. {amount} PEN"
         },
         "PHP": {
-            "money_format": "&#8369;{amount}",
-            "money_with_currency_format": "&#8369;{amount} PHP"
+            "money_format": "₱{amount}",
+            "money_with_currency_format": "₱{amount} PHP"
         },
         "PLN": {
             "money_format": "{amount} zl",
@@ -383,8 +383,8 @@ class Currency(object):
             "money_with_currency_format": "{amount} lei RON"
         },
         "RUB": {
-            "money_format": "&#1088;&#1091;&#1073;{amount}",
-            "money_with_currency_format": "&#1088;&#1091;&#1073;{amount} RUB"
+            "money_format": "руб{amount}",
+            "money_with_currency_format": "руб{amount} RUB"
         },
         "RWF": {
             "money_format": "{amount} RF",
@@ -415,16 +415,16 @@ class Currency(object):
             "money_with_currency_format": "${amount} SGD"
         },
         "SYP": {
-            "money_format": "S&pound;{amount}",
-            "money_with_currency_format": "S&pound;{amount} SYP"
+            "money_format": "S£{amount}",
+            "money_with_currency_format": "S£{amount} SYP"
         },
         "ZAR": {
             "money_format": "R {amount}",
             "money_with_currency_format": "R {amount} ZAR"
         },
         "KRW": {
-            "money_format": "&#8361;{amount}",
-            "money_with_currency_format": "&#8361;{amount} KRW"
+            "money_format": "₩{amount}",
+            "money_with_currency_format": "₩{amount} KRW"
         },
         "LKR": {
             "money_format": "Rs {amount}",
@@ -443,8 +443,8 @@ class Currency(object):
             "money_with_currency_format": "${amount} TWD"
         },
         "THB": {
-            "money_format": "{amount} &#xe3f;",
-            "money_with_currency_format": "{amount} &#xe3f; THB"
+            "money_format": "{amount} ฿",
+            "money_with_currency_format": "{amount} ฿ THB"
         },
         "TZS": {
             "money_format": "{amount} TZS",
@@ -487,7 +487,7 @@ class Currency(object):
             "money_with_currency_format": "Bs. {amount} VEF"
         },
         "VND": {
-            "money_format": "{amount}&#8363;",
+            "money_format": "{amount}₫",
             "money_with_currency_format": "{amount} VND"
         },
         "XBT": {
@@ -565,3 +565,4 @@ class Currency(object):
         return self.money_formats[
             self.get_money_currency()
         ]['money_with_currency_format'].format(amount=amount)
+
