@@ -9,3 +9,7 @@ def get_version():
     :rtype: basestring
     """
     return ".".join(str(v) for v in __VERSION__)
+
+
+class Currency(object):
+    currency = None
