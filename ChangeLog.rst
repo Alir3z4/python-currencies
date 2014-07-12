@@ -1,3 +1,6 @@
+2014.7.13 2014-07-13
+==============
+----
 
 * Introduce ``config`` module.
 * Move constant variables from ``initializer`` to ``config`` module.

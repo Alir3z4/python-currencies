@@ -3,7 +3,7 @@
 from currencies.config import MONEY_FORMATS
 from currencies.exceptions import CurrencyDoesNotExist
 
-__VERSION__ = (2014, 7, 12)
+__VERSION__ = (2014, 7, 13)
 
 
 def get_version():
