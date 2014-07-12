@@ -1,6 +1,7 @@
 import unittest
-from setuptools import setup, find_packages, Command
 import sys
+
+from setuptools import setup, find_packages, Command
 
 
 class RunTests(Command):
