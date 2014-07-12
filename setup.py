@@ -29,6 +29,7 @@ setup(
     author='Alireza Savand',
     author_email='alireza.savand@gmail.com',
     url='https://github.com/Alir3z4/python-currencies',
+    cmdclass={'test': RunTests},
     packages=find_packages(),
     classifiers=[
         'Development Status :: 5 - Production/Stable',
