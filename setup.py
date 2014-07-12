@@ -31,9 +31,11 @@ setup(
     url='https://github.com/Alir3z4/python-currencies',
     packages=find_packages(),
     classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: GNU General Public License (GPL)',
+        'Operating System :: OS Independent',
         "Programming Language :: Python",
-        "Intended Audience :: Developers",
-        "Operating System :: OS Independent",
         "Topic :: Software Development"
     ],
 )
