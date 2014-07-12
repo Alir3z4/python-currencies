@@ -548,3 +548,20 @@ class Currency(object):
             self.get_money_currency()
         ]['money_format'].format(amount=amount)
 
+    def get_money_with_currency_format(self, amount):
+        """
+        :type amount: int or float
+
+        Usage:
+        >>> currency = Currency('USD')
+        >>> '$13 USD'
+        >>> currency.get_money_with_currency_format(13.99)
+        >>> '$13 USD'
+        >>> currency.get_money_with_currency_format('13,2313,33')
+        >>> '$13,2313,33 USD'
+
+        :rtype: str
+        """
+        return self.money_formats[
+            self.get_money_currency()
+        ]['money_with_currency_format'].format(amount=amount)
