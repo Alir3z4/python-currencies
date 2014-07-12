@@ -51,16 +51,20 @@ Installation
 http://pypi.python.org/pypi/currencies
 
 So easily install it by ``pip``
+
 ::
 
     $ pip install currencies
 
 Or by ``easy_install``
+
 ::
 
     $ easy_install currencies
 
-Another way is by cloning ``currencies``'s `git repo <https://github.com/Alir3z4/python-currencies>`_ ::
+Another way is by cloning ``currencies``'s `git repo <https://github.com/Alir3z4/python-currencies>`_
+
+::
 
     $ git clone git://github.com/Alir3z4/python-currencies.git
 
@@ -70,9 +74,34 @@ Then install it by running:
     $ python setup.py install
 
 
+Usage
+-----
+
+Displaying money format:
+
+>>> from currencies import Currency
+>>>
+>>> currency = Currency('USD')
+>>> currency.get_money_format(13)
+>>> '$13'
+>>> currency.get_money_format(13.99)
+>>> '$13.99'
+>>> currency.get_money_format('13,2313,33')
+>>> '$13,2313,33'
+>>>
+>>> # Displaying with currency as well
+>>>
+>>> currency.get_money_with_currency_format(13)
+>>> '$13 USD'
+>>> currency.get_money_with_currency_format(13.99)
+>>> '$13.99 USD'
+>>> currency.get_money_with_currency_format('13,2313,33')
+>>> '$13,2313,33 USD'
+
+
 
 Available currencies
--------------------
+---------------------
 
 * AED
 * ALL
