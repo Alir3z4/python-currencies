@@ -1,8 +1,14 @@
 from unittest import TestCase
-from currencies import Currency
+from currencies import Currency, get_version, __VERSION__
 
 
 class TestCurrency(TestCase):
+    def test_get_version(self):
+        version = get_version()
+
+        self.assertIsInstance(version, str)
+        self.assertEqual(len(version.split('.')), len(__VERSION__))
+
     def test_get_money_currency(self):
         currency = Currency('USD')
 
@@ -45,3 +51,4 @@ class TestCurrency(TestCase):
             currency.get_money_with_currency_format('13,2313,33'),
             '$13,2313,33 USD'
         )
+
