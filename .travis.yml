@@ -1,0 +1,11 @@
+language: python
+python:
+  - 2.6
+  - 2.7
+  - pypy
+install:
+  pip install coveralls
+script:
+  PYTHONPATH=$PYTHONPATH:. coverage run --source=currencies setup.py test -v
+after_success:
+  coveralls
