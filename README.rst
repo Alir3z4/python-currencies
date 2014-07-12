@@ -100,6 +100,16 @@ Displaying money format:
 
 
 
+Tests
+-----
+
+``currencies`` is well tested, to run the test suite:
+
+::
+
+    $ PYTHONPATH=$PYTHONPATH:. python setup.py test
+
+
 Available currencies
 ---------------------
 
