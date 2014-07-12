@@ -15,3 +15,13 @@ class TestCurrency(TestCase):
         self.assertIsNotNone(currency_formats)
         self.assertIsInstance(currency_formats, list)
         self.assertGreater(len(currency_formats), 0)
+
+    def test_get_money_format(self):
+        currency = Currency('USD')
+
+        self.assertEqual(currency.get_money_format(13), '$13')
+        self.assertEqual(currency.get_money_format(13.99), '$13.99')
+        self.assertEqual(
+            currency.get_money_format('13,2313,33'),
+            '$13,2313,33'
+        )
