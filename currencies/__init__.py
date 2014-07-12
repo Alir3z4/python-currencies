@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 from currencies.config import MONEY_FORMATS
+from currencies.exceptions import CurrencyDoesNotExist
 
 __VERSION__ = (2014, 7, 12)
 
@@ -26,6 +27,9 @@ class Currency(object):
         """
         :type money_currency: str
         """
+        if money_currency not in self.money_formats:
+            raise CurrencyDoesNotExist
+
         self.money_currency = money_currency
 
     def get_money_currency(self):
