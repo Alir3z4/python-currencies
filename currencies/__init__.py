@@ -503,3 +503,9 @@ class Currency(object):
             "money_with_currency_format": "ZMW{amount}"
         }
     }
+
+    def __init__(self, currency):
+        """
+        :type currency: str
+        """
+        self.currency = currency
