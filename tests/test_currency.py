@@ -1,5 +1,6 @@
 from unittest import TestCase
 from currencies import Currency, get_version, __VERSION__
+from currencies.exceptions import CurrencyDoesNotExist
 
 
 class TestCurrency(TestCase):
@@ -52,3 +53,9 @@ class TestCurrency(TestCase):
             '$13,2313,33 USD'
         )
 
+    def test_does_not_exist_currency(self):
+        self.assertRaises(
+            CurrencyDoesNotExist,
+            Currency,
+            money_currency='BingoMingo'
+        )
