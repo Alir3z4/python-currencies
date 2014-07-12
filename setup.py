@@ -1,4 +1,23 @@
-from setuptools import setup, find_packages
+import unittest
+from setuptools import setup, find_packages, Command
+import sys
+
+
+class RunTests(Command):
+    description = "run all tests for python-currencies"
+    user_options = []
+
+    def initialize_options(self):
+        pass
+
+    def finalize_options(self):
+        pass
+
+    def run(self):
+        tests = unittest.TestLoader().discover('.')
+        runner = unittest.TextTestRunner()
+        results = runner.run(tests)
+        sys.exit(not results.wasSuccessful())
 
 setup(
     name='currencies',
