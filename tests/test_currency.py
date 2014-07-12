@@ -9,6 +9,17 @@ class TestCurrency(TestCase):
         self.assertIsInstance(currency.get_money_currency(), str)
         self.assertEqual(currency.get_money_currency(), 'USD')
 
+    def test_set_money_currency(self):
+        currency = Currency('USD')
+
+        self.assertEqual(currency.get_money_currency(), 'USD')
+        self.assertEqual(currency.get_money_format(13), '$13')
+
+        currency.set_money_currency('AED')
+
+        self.assertEqual(currency.get_money_currency(), 'AED')
+        self.assertEqual(currency.get_money_format(13), 'Dhs. 13')
+
     def test_get_currency_formats(self):
         currency_formats = Currency.get_currency_formats()
 
