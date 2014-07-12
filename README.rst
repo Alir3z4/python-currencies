@@ -4,6 +4,46 @@ Python Currencies
 
 Display money format and its filthy currencies, for all money lovers out there.
 
+.. image:: https://secure.travis-ci.org/Alir3z4/python-currencies.png
+   :alt: Build Status
+   :target: http://travis-ci.org/Alir3z4/python-currencies
+
+
+.. image:: https://coveralls.io/repos/Alir3z4/currencies/badge.png
+   :alt: Coverage Status
+   :target: https://coveralls.io/r/Alir3z4/python-currencies
+
+
+.. image:: https://pypip.in/d/currencies/badge.png
+   :alt: Downloads
+   :target: https://pypi.python.org/pypi/currencies/
+
+
+.. image:: https://pypip.in/v/currencies/badge.png
+   :alt: Version
+   :target: https://pypi.python.org/pypi/currencies/
+
+
+.. image:: https://pypip.in/egg/currencies/badge.png
+   :alt: Egg
+   :target: https://pypi.python.org/pypi/currencies/
+
+
+.. image:: https://pypip.in/wheel/currencies/badge.png
+   :alt: Wheel
+   :target: https://pypi.python.org/pypi/currencies/
+
+
+.. image:: https://pypip.in/format/currencies/badge.png
+   :alt: Format
+   :target: https://pypi.python.org/pypi/currencies/
+
+.. image:: https://pypip.in/license/currencies/badge.png
+   :alt: License
+   :target: https://pypi.python.org/pypi/currencies/
+
+
+
 Installation
 ------------
 ``currencies`` is available on PyPi
