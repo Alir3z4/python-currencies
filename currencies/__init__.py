@@ -516,3 +516,9 @@ class Currency(object):
         """
         return self.currency
 
+    @classmethod
+    def get_currency_formats(cls):
+        """
+        :rtype: list
+        """
+        return cls.money_formats.keys()
