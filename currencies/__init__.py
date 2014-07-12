@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 __VERSION__ = (0000, 0, 0)
 
 
