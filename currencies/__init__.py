@@ -509,3 +509,10 @@ class Currency(object):
         :type currency: str
         """
         self.currency = currency
+
+    def get_currency(self):
+        """
+        :rtype: str
+        """
+        return self.currency
+
