@@ -3,6 +3,7 @@
 .spyderproject
 # file
 *.pyc
+.coverage
 MANIFEST
 # dir
 build/
