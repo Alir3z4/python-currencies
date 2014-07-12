@@ -54,7 +54,7 @@ class Currency(object):
         >>> currency.get_money_format(13)
         >>> '$13'
         >>> currency.get_money_format(13.99)
-        >>> '$12.99'
+        >>> '$13.99'
         >>> currency.get_money_format('13,2313,33')
         >>> '$13,2313,33'
 
@@ -70,9 +70,10 @@ class Currency(object):
 
         Usage:
         >>> currency = Currency('USD')
+        >>> currency.get_money_with_currency_format(13)
         >>> '$13 USD'
         >>> currency.get_money_with_currency_format(13.99)
-        >>> '$13 USD'
+        >>> '$13.99 USD'
         >>> currency.get_money_with_currency_format('13,2313,33')
         >>> '$13,2313,33 USD'
 
