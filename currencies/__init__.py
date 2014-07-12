@@ -531,7 +531,7 @@ class Currency(object):
 
     def get_money_format(self, amount):
         """
-        :type amount: int or float
+        :type amount: int or float or str
 
         Usage:
         >>> currency = Currency('USD')
@@ -550,7 +550,7 @@ class Currency(object):
 
     def get_money_with_currency_format(self, amount):
         """
-        :type amount: int or float
+        :type amount: int or float or str
 
         Usage:
         >>> currency = Currency('USD')
