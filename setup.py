@@ -25,7 +25,7 @@ setup(
     description='Display money format and its filthy currencies, '
                 'for all money lovers out there.',
     long_description=open('README.rst').read(),
-    license=open('LICENSE').read(),
+    license='GNU GPL 3',
     author='Alireza Savand',
     author_email='alireza.savand@gmail.com',
     url='https://github.com/Alir3z4/python-currencies',
