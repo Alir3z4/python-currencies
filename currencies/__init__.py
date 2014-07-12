@@ -528,3 +528,23 @@ class Currency(object):
         :rtype: list
         """
         return cls.money_formats.keys()
+
+    def get_money_format(self, amount):
+        """
+        :type amount: int or float
+
+        Usage:
+        >>> currency = Currency('USD')
+        >>> currency.get_money_format(13)
+        >>> '$13'
+        >>> currency.get_money_format(13.99)
+        >>> '$12.99'
+        >>> currency.get_money_format('13,2313,33')
+        >>> '$13,2313,33'
+
+        :rtype: str
+        """
+        return self.money_formats[
+            self.get_money_currency()
+        ]['money_format'].format(amount=amount)
+
