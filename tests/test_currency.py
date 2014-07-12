@@ -25,3 +25,12 @@ class TestCurrency(TestCase):
             currency.get_money_format('13,2313,33'),
             '$13,2313,33'
         )
+
+    def test_get_money_with_currency_format(self):
+        currency = Currency('USD')
+
+        self.assertEqual(currency.get_money_with_currency_format(13.99), '$13.99 USD')
+        self.assertEqual(
+            currency.get_money_with_currency_format('13,2313,33'),
+            '$13,2313,33 USD'
+        )
