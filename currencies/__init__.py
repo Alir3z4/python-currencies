@@ -12,7 +12,7 @@ def get_version():
 
 
 class Currency(object):
-    currency = None
+    money_currency = None
     money_formats = {
         "USD": {
             "money_format": "${amount}",
@@ -504,17 +504,17 @@ class Currency(object):
         }
     }
 
-    def __init__(self, currency):
+    def __init__(self, money_currency):
         """
-        :type currency: str
+        :type money_currency: str
         """
-        self.currency = currency
+        self.set_money_currency(money_currency)
 
-    def get_currency(self):
+    def get_money_currency(self):
         """
         :rtype: str
         """
-        return self.currency
+        return self.money_currency
 
     @classmethod
     def get_currency_formats(cls):
