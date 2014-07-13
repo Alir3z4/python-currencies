@@ -9,7 +9,7 @@ Display money format and its filthy currencies, for all money lovers out there.
    :target: http://travis-ci.org/Alir3z4/python-currencies
 
 
-.. image:: https://coveralls.io/repos/Alir3z4/currencies/badge.png
+.. image:: https://coveralls.io/repos/Alir3z4/python-currencies/badge.png
    :alt: Coverage Status
    :target: https://coveralls.io/r/Alir3z4/python-currencies
 
