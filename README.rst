@@ -243,7 +243,7 @@ Available currencies
 Source      https://github.com/Alir3z4/python-currencies
 Website     http://alir3z4.github.com/python-currencies
 Issues      https://github.com/Alir3z4/python-currencies/issues
-PyPi        http://pypi.python.org/pypi/python-currencies
+PyPi        http://pypi.python.org/pypi/currencies
 Author      Alireza Savand
 License     GNU GPL 3
 ========== ======
