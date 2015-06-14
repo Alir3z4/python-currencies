@@ -1,3 +1,10 @@
+0000.0.00 0000-00-00
+=============
+----
+
+* Update Rupee symbol
+
+
 2014.7.13 2014-07-13
 ==============
 ----
@@ -17,10 +24,3 @@
 * Full test suit.
 * %100 test coverage.
 * Initial release.
-
-
-0000.0.00 0000-00-00
-=============
-----
-
-* Update Rupee symbol
