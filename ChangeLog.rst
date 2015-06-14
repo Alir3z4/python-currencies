@@ -17,3 +17,10 @@
 * Full test suit.
 * %100 test coverage.
 * Initial release.
+
+
+0000.0.00 0000-00-00
+=============
+----
+
+* Update Rupee symbol
