@@ -318,8 +318,8 @@ MONEY_FORMATS = {
         "money_with_currency_format": "{amount} NIS",
     },
     MONEY_CURRENCY_INR: {
-        "money_format": "Rs. {amount}",
-        "money_with_currency_format": "Rs. {amount}",
+        "money_format": "₹{amount}",
+        "money_with_currency_format": "₹{amount}",
     },
     MONEY_CURRENCY_ISK: {
         "money_format": "{amount} kr",
