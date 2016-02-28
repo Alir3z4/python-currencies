@@ -13,34 +13,41 @@ Display money format and its filthy currencies, for all money lovers out there.
    :alt: Coverage Status
    :target: https://coveralls.io/r/Alir3z4/python-currencies
 
+.. image:: http://badge.kloud51.com/pypi/s/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI Status
 
-.. image:: https://pypip.in/d/currencies/badge.png
-   :alt: Downloads
-   :target: https://pypi.python.org/pypi/currencies/
+.. image:: http://badge.kloud51.com/pypi/v/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI Version
 
+.. image:: http://badge.kloud51.com/pypi/w/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI Wheel
 
-.. image:: https://pypip.in/v/currencies/badge.png
-   :alt: Version
-   :target: https://pypi.python.org/pypi/currencies/
+.. image:: http://badge.kloud51.com/pypi/l/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI License
 
+.. image:: http://badge.kloud51.com/pypi/f/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI Format
 
-.. image:: https://pypip.in/egg/currencies/badge.png
-   :alt: Egg
-   :target: https://pypi.python.org/pypi/currencies/
+.. image:: http://badge.kloud51.com/pypi/p/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI Py_versions
 
+.. image:: http://badge.kloud51.com/pypi/d/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI Downloads
 
-.. image:: https://pypip.in/wheel/currencies/badge.png
-   :alt: Wheel
-   :target: https://pypi.python.org/pypi/currencies/
+.. image:: http://badge.kloud51.com/pypi/i/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI Implementation
 
-
-.. image:: https://pypip.in/format/currencies/badge.png
-   :alt: Format
-   :target: https://pypi.python.org/pypi/currencies/
-
-.. image:: https://pypip.in/license/currencies/badge.png
-   :alt: License
-   :target: https://pypi.python.org/pypi/currencies/
+.. image:: http://badge.kloud51.com/pypi/e/currencies.svg
+    :target: https://pypi.python.org/pypi/currencies
+    :alt: PyPI Egg
 
 
 
