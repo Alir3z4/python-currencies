@@ -3,7 +3,7 @@
 from currencies.config import MONEY_FORMATS
 from currencies.exceptions import CurrencyDoesNotExist
 
-__VERSION__ = (2014, 7, 13)
+__VERSION__ = (2020, 1, 12)
 
 
 def get_version():
@@ -43,7 +43,7 @@ class Currency(object):
         """
         :rtype: list
         """
-        return cls.money_formats.keys()
+        return list(cls.money_formats.keys())
 
     def get_money_format(self, amount):
         """

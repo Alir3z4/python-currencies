@@ -20,6 +20,7 @@ class RunTests(Command):
         results = runner.run(tests)
         sys.exit(not results.wasSuccessful())
 
+
 setup(
     name='currencies',
     version=__import__("currencies").get_version(),
@@ -38,6 +39,11 @@ setup(
         'License :: OSI Approved :: GNU General Public License (GPL)',
         'Operating System :: OS Independent',
         "Programming Language :: Python",
+        "Programming Language :: Python :: 2",
+        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.7",
         "Topic :: Software Development"
     ],
+    python_requires='>=2.6, <4',
 )
