@@ -1,13 +1,14 @@
-2020.1.012 2020-01-12
-=============
+2020.12.12
+==========
 ----
 
-* Update Rupee symbol
-* Added minor modification for Python 3 compatibility
+* Update Rupee symbol.
+* Added minor modification for Python 3 compatibility.
+* Add AFN cureency.
 
 
-2014.7.13 2014-07-13
-==============
+2014.7.13
+=========
 ----
 
 * Introduce ``config`` module.
@@ -17,8 +18,8 @@
 * Add Tests section to ``README.rst``
 
 
-2014.7.12 2014-07-12
-==============
+2014.7.12
+=========
 ----
 
 * Support many currencies.
