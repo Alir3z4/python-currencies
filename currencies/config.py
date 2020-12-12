@@ -130,7 +130,6 @@ MONEY_FORMATS = {
         "money_format": "Dhs. {amount}",
         "money_with_currency_format": "Dhs. {amount} AED",
     },
-
     MONEY_CURRENCY_AFN: {
         "money_format": "Af {amount}",
         "money_with_currency_format": "Af {amount} AFN",
