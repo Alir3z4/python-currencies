@@ -2,6 +2,7 @@
 # coding: utf-8
 
 MONEY_CURRENCY_AED = "AED"
+MONEY_CURRENCY_AFN = "AFN"
 MONEY_CURRENCY_ALL = "ALL"
 MONEY_CURRENCY_AMD = "AMD"
 MONEY_CURRENCY_ANG = "ANG"
@@ -128,6 +129,10 @@ MONEY_FORMATS = {
     MONEY_CURRENCY_AED: {
         "money_format": "Dhs. {amount}",
         "money_with_currency_format": "Dhs. {amount} AED",
+    },
+    MONEY_CURRENCY_AFN: {
+        "money_format": "Af {amount}",
+        "money_with_currency_format": "Af {amount} AFN",
     },
     MONEY_CURRENCY_ALL: {
         "money_format": "Lek {amount}",
@@ -614,4 +619,3 @@ MONEY_FORMATS = {
         "money_with_currency_format": "ZMW{amount}",
     },
 }
-
