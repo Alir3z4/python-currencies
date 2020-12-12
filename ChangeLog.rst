@@ -1,8 +1,9 @@
-0000.0.00 0000-00-00
+2020.1.012 2020-01-12
 =============
 ----
 
 * Update Rupee symbol
+* Added minor modification for Python 3 compatibility
 
 
 2014.7.13 2014-07-13
