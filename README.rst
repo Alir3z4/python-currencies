@@ -4,14 +4,14 @@ Python Currencies
 
 Display money format and its filthy currencies, for all money lovers out there.
 
-.. image:: https://secure.travis-ci.org/Alir3z4/python-currencies.png
+.. image:: https://github.com/Alir3z4/python-currencies/workflows/Python%20Currencies%20Package/badge.svg
    :alt: Build Status
-   :target: http://travis-ci.org/Alir3z4/python-currencies
+   :target: https://github.com/Alir3z4/python-currencies/actions
 
 
-.. image:: https://coveralls.io/repos/Alir3z4/python-currencies/badge.png
-   :alt: Coverage Status
-   :target: https://coveralls.io/r/Alir3z4/python-currencies
+.. image:: https://codecov.io/gh/Alir3z4/python-currencies/branch/master/graph/badge.svg?token=Ag25YMSuEX
+   :target: https://codecov.io/gh/Alir3z4/python-currencies
+
 
 
 
