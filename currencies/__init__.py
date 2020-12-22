@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
 from typing import Union, List, Optional
 from currencies.config import MONEY_FORMATS
 from currencies.exceptions import CurrencyDoesNotExist

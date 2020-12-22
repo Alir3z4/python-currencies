@@ -1,5 +1,4 @@
 #!/usr/bin/env python
-# coding: utf-8
 
 MONEY_CURRENCY_AED = "AED"
 MONEY_CURRENCY_AFN = "AFN"
