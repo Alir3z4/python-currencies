@@ -26,6 +26,7 @@ MONEY_CURRENCY_BZD = "BZD"
 MONEY_CURRENCY_CAD = "CAD"
 MONEY_CURRENCY_CHF = "CHF"
 MONEY_CURRENCY_CLP = "CLP"
+MONEY_CURRENCY_CLF = "CLF"
 MONEY_CURRENCY_CNY = "CNY"
 MONEY_CURRENCY_COP = "COP"
 MONEY_CURRENCY_CRC = "CRC"
@@ -228,6 +229,10 @@ MONEY_FORMATS = {
     MONEY_CURRENCY_CLP: {
         "money_format": "${amount}",
         "money_with_currency_format": "${amount} CLP",
+    },
+    MONEY_CURRENCY_CLF: {
+        "money_format": "UF{amount}",
+        "money_with_currency_format": "UF{amount} CLF",
     },
     MONEY_CURRENCY_CNY: {
         "money_format": "¥{amount}",
