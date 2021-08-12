@@ -2,6 +2,7 @@
 from typing import Union, List, Optional
 from currencies.config import MONEY_FORMATS
 from currencies.exceptions import CurrencyDoesNotExist
+import json
 
 __VERSION__ = (2020, 12, 12)
 
@@ -60,4 +61,21 @@ class Currency:
         return self.money_formats[
             self.get_money_currency()
         ]['money_with_currency_format'].format(amount=amount)
+
+
+    def get_name(self) -> str:
+
+        # Open JSON file and read into dict called 'data'
+        with open('currency_name.json', 'r', encoding='utf-8') as jsonfile:
+            data = json.load(jsonfile)
+
+        # return the dict value by looking up with key supplied from money_currency
+        return data.get(self.money_currency)
+
+
+
+
+
+
+
 
